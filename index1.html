@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mon portofolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: #ef0b0b;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #eb0a0a;
+            text-decoration: none;
+            padding: 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #ed0c0c;
+            text-align: center;
+            padding: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #420be8;
+            border-radius: 5px;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: #eb0f0f;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>mon portofolio</h1>
+</header>
+
+<nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#a-propos">À Propos</a>
+    <a href="#travail">Travail</a>
+    <a href="#cv">CV</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="accueil">
+    <h2>Bienvenue sur ma page d'accueil</h2>
+    <p>Ce site est dédié à partager mes projets et expériences.</p>
+</section>
+
+<section id="a-propos">
+    <h2>À Propos de Moi</h2>
+    <p>Je suis une jeune Etudiante de nationalité
+        Ivoirienne, âgé de 25 ans, célibataire sans
+        enfant. Je prétends intégrer une équipe
+        professionnelle compétente et dynamique
+        pour une bonne expérience en entreprise.</p>
+</section>
+
+<section id="travail">
+    <h2>Mon Travail</h2>
+    <p>Découvrez mes projets récents et mes compétences realises.</p>
+    <ul>
+        <li>emps de réalisation : 3mois J'ai crée des affiches, des logos , des
+            maquettes et les interfaces web en utilisant Illustrator , Photoshop,
+            XD, Figma</li>
+        <li>Temps de réalisation : 3mois J'ai crée une application web de e
+            commerce pour la vente des produits alimentaires en utilisant PHP ,
+            html, CSS et base de donnée pour faire la conception</li>
+        <li>Je veux avec mes compétences et mon expérience . Je veux être
+            force proposition pour permettre à l' entreprise d' atteindre plus
+            efficacement son objectif</li>
+    </ul>
+</section>
+
+<section id="cv">
+    <h2>Mon CV</h2>
+    <p>Consultez mon CV pour en savoir plus sur mon parcours professionnel.</p>
+    <!-- Insérez un lien vers votre CV PDF -->
+    <a href="file:///C:/Users/HP/Desktop/CV%20NIAFOGOU%20MARIAM%20UI%20UX%20DESIGNER.pdf" target="_blank">Télécharger CV (PDF)</a>
+</section>
+
+<section id="contact">
+    <h2>Contactez-moi</h2>
+    <form action="submit.php" method="POST">
+        <input type="text" name="nom" placeholder="Votre Nom" required><br>
+        <input type="text" name="email" placeholder="Votre Email" required><br>
+        <textarea name="message" placeholder="Votre Message" rows="4" required></textarea><br>
+        <input type="submit" value="Envoyer">
+    </form>
+</section>
+
+<footer>
+    <p>  portofolio 2024</p>
+</footer>
+
+</body>
+</html>
